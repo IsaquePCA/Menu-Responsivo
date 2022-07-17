@@ -51,6 +51,7 @@ main {
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
+    margin-top: 30px;
     background-color: #fff;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
@@ -65,7 +66,7 @@ h2 {
     color: #646464d7;
     font-size: 1.8em;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -100,6 +101,19 @@ img {
 
 .mobile-menu {
     display: none;
+}
+
+
+div.modo-escuro {
+    width: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modo-escuro button {
+    width: 100%;
+    width: 30px;
+    margin-right: 10px;
 }
 
 
