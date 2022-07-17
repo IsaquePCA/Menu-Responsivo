@@ -51,10 +51,9 @@ main {
     max-width: 1000px;
     min-width: 250px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #fff;
     padding: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
 }
 
 .sobre {
@@ -107,13 +106,48 @@ img {
 div.modo-escuro {
     width: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 0px;
+    
 }
 
 .modo-escuro button {
     width: 100%;
     width: 30px;
     margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+i {
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-circle-half-stroke {
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fa-circle-half-stroke:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.fa-moon {
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fa-moon:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 
